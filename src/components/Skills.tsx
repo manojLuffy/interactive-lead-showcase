@@ -13,31 +13,31 @@ const Skills = () => {
 
   const skills: Skill[] = [
     // Frontend
+    { name: 'React.js', level: 95, category: 'frontend' },
     { name: 'JavaScript', level: 95, category: 'frontend' },
-    { name: 'TypeScript', level: 90, category: 'frontend' },
-    { name: 'HTML5', level: 98, category: 'frontend' },
-    { name: 'CSS3/SCSS', level: 92, category: 'frontend' },
-    { name: 'WebGL', level: 75, category: 'frontend' },
-    { name: 'Responsive Design', level: 95, category: 'frontend' },
-    { name: 'Web Animation', level: 85, category: 'frontend' },
+    { name: 'HTML5/CSS3', level: 90, category: 'frontend' },
+    { name: 'TypeScript', level: 85, category: 'frontend' },
+    { name: 'Redux', level: 90, category: 'frontend' },
+    { name: 'SASS/SCSS', level: 88, category: 'frontend' },
+    { name: 'Responsive Design', level: 92, category: 'frontend' },
     
     // Frameworks & Libraries
-    { name: 'React', level: 95, category: 'frameworks' },
+    { name: 'React Hooks', level: 95, category: 'frameworks' },
     { name: 'Next.js', level: 88, category: 'frameworks' },
-    { name: 'Vue.js', level: 80, category: 'frameworks' },
-    { name: 'Three.js', level: 82, category: 'frameworks' },
-    { name: 'Tailwind CSS', level: 90, category: 'frameworks' },
-    { name: 'Redux', level: 85, category: 'frameworks' },
-    { name: 'Framer Motion', level: 78, category: 'frameworks' },
+    { name: 'Micro-frontend', level: 90, category: 'frameworks' },
+    { name: 'Node.js', level: 82, category: 'frameworks' },
+    { name: 'Webpack/Rollup', level: 85, category: 'frameworks' },
+    { name: 'Java SpringBoot', level: 75, category: 'frameworks' },
+    { name: 'iOS/Swift', level: 80, category: 'frameworks' },
     
     // Tools & Others
+    { name: 'AWS Services', level: 85, category: 'tools' },
     { name: 'Git/GitHub', level: 92, category: 'tools' },
-    { name: 'Jest/Testing', level: 85, category: 'tools' },
-    { name: 'Webpack', level: 80, category: 'tools' },
-    { name: 'CI/CD', level: 78, category: 'tools' },
-    { name: 'Performance Optimization', level: 88, category: 'tools' },
-    { name: 'Agile/Scrum', level: 90, category: 'tools' },
-    { name: 'UI/UX Principles', level: 86, category: 'tools' },
+    { name: 'Docker', level: 80, category: 'tools' },
+    { name: 'Agile Methodologies', level: 90, category: 'tools' },
+    { name: 'JIRA', level: 88, category: 'tools' },
+    { name: 'CI/CD (GoCD/ArgoCD)', level: 78, category: 'tools' },
+    { name: 'Google Dialogue Flow', level: 75, category: 'tools' },
   ];
 
   useEffect(() => {

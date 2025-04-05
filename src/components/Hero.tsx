@@ -60,7 +60,7 @@ const Hero = () => {
             ref={textRefs.name}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-lightest-slate mb-4 opacity-0 translate-y-8 transition-all duration-700 delay-[600ms]"
           >
-            John Doe.
+            Gaurav Sharma.
           </h1>
           
           <h2 
@@ -74,7 +74,7 @@ const Hero = () => {
             ref={textRefs.bio}
             className="text-slate text-lg md:text-xl mb-8 max-w-xl opacity-0 translate-y-8 transition-all duration-700 delay-[1200ms]"
           >
-            I'm a <span className="text-teal">Frontend Lead</span> with a passion for creating innovative, high-performance web applications. Specializing in modern JavaScript frameworks and interactive user experiences.
+            I'm a <span className="text-teal">Senior Software Engineer</span> with 12+ years of experience in building scalable web and mobile applications. Frontend Specialist with Full-Stack exposure based in <span className="text-teal">Bengaluru, India</span>.
           </p>
           
           <div 

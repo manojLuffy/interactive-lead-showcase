@@ -34,15 +34,15 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-4 text-light-slate">
             <p>
-              Hello! I'm a passionate Frontend Lead Developer with over 8 years of experience creating engaging user interfaces and seamless experiences for the web. My journey in web development began when I built my first website from scratch in 2015.
+              Hello! I'm Gaurav Sharma, a Senior Software Engineer with <span className="highlight">12+ years of experience</span> in building scalable web and mobile applications. I'm a Frontend Specialist with a passion for creating exceptional user experiences.
             </p>
             
             <p>
-              Since then, I've worked with companies ranging from startups to large enterprises, helping build products that are not only visually appealing but also highly performant and accessible. I believe that great frontend development is the perfect blend of <span className="highlight">art and technology</span>.
+              Currently working at <span className="highlight">Tekion</span>, I collaborate closely with programmers, Product Managers, and Engineering Managers within an Agile framework to deliver high-quality software solutions. I've spearheaded the formalization of key processes, taking full ownership from inception to completion.
             </p>
             
             <p>
-              My approach is to blend creativity with technical excellence, ensuring that every project I work on meets both business goals and user expectations. I enjoy tackling complex problems and turning them into elegant solutions.
+              My approach combines creativity with technical excellence, ensuring that every project meets both business goals and user expectations. I enjoy tackling complex problems and turning them into elegant solutions.
             </p>
             
             <p>
@@ -52,24 +52,24 @@ const About = () => {
             <div className="grid grid-cols-2 gap-2 text-sm">
               <ul className="space-y-2">
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> React & Next.js
+                  <span className="text-teal mr-2">▹</span> React.js & Next.js
                 </li>
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> TypeScript
+                  <span className="text-teal mr-2">▹</span> JavaScript/TypeScript
                 </li>
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> Three.js & WebGL
+                  <span className="text-teal mr-2">▹</span> Redux & React Hooks
                 </li>
               </ul>
               <ul className="space-y-2">
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> Tailwind CSS
+                  <span className="text-teal mr-2">▹</span> Micro-frontend Architecture
                 </li>
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> Frontend Architecture
+                  <span className="text-teal mr-2">▹</span> AWS & Cloud Services
                 </li>
                 <li className="flex items-center">
-                  <span className="text-teal mr-2">▹</span> Performance Optimization
+                  <span className="text-teal mr-2">▹</span> Node.js & Backend Technologies
                 </li>
               </ul>
             </div>
@@ -80,7 +80,7 @@ const About = () => {
               <div className="absolute inset-0 bg-teal/10 z-10 mix-blend-multiply transition-all duration-300 group-hover:bg-transparent"></div>
               <img 
                 src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                alt="John Doe" 
+                alt="Gaurav Sharma" 
                 className="w-full grayscale group-hover:grayscale-0 transition-all duration-300"
               />
             </div>
