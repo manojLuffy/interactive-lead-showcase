@@ -80,7 +80,7 @@ const Projects = () => {
 
   const awards: Award[] = [
     {
-      title: ""The Brightest Mind" award",
+      title: "\"The Brightest Mind\" award",
       issuer: "Nagarro",
       description: "The best of the best!"
     },
